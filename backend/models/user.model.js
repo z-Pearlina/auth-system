@@ -24,7 +24,7 @@ const userSchema = new mangoose.Schema({
     }, 
     
     resetPasswordToken: String,
-    resetPasswordExpires: Date,
+    resetPasswordExpiresAt: Date,
     verificationToken: String,
     verificationTokenExpiresAt: Date,
 },{timetamps: true});
